@@ -1,0 +1,70 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "list test",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [
+            {
+              "name": "user_response",
+              "type": "FreeSpeechSlotType"
+            }
+          ],
+          "samples": [
+            "{user_response}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "gbvh jh bk jb jl kbjhbhbjb "
+              }
+            },
+            {
+              "name": {
+                "value": "ipsum salt and other languages jydv"
+              }
+            },
+            {
+              "name": {
+                "value": "just random words of different length can be anything"
+              }
+            },
+            {
+              "name": {
+                "value": "anything no meaning "
+              }
+            },
+            {
+              "name": {
+                "value": "anything epsium sortum "
+              }
+            }
+          ],
+          "name": "FreeSpeechSlotType"
+        }
+      ]
+    }
+  },
+  "version": "6"
+}
